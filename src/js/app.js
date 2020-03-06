@@ -19,11 +19,11 @@ function countClick2(){
     }
     // function update(){
 
-    }
-    let autoClick = 0;
-    function timer() {
-        addMacaron = addMacaron + autoClick;
-        update()
-    }
-    setInterval(timer, 1000)
+    // }
+    // let autoClick = 0;
+    // function timer() {
+    //     addMacaron = addMacaron + autoClick;
+    //     update()
+    // }
+    // setInterval(timer, 1000)
 }
