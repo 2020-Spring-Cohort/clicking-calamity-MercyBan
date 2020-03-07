@@ -14,18 +14,20 @@
             <a href=# onclick="addMacaron()"><img src="./macaron_PNG80 (1).png" width="120px" height=120px></a>
             <br></br>
             You got:
-            <input type="text" id="macaron" disabled style = text-align:center>
+            <!-- <input type="text" id="macaron" disabled style = text-align:center> -->
+            <span id="count" onclick="addMacaron()">0</span>
+            <!-- <span id ="count" ></span> -->
             Macarons
             <br> <br>
-            <button><a href="#" onClick="reset()">Reset</a></button>
+            <button><a href="#" onclick="reset()">Reset</a></button>
             <br> <br>
-            <button> <a href="#" onClick= "purchaseClickingCompanion()"><img src="./cursor-png.png" width="50px" height="50px">
+            <button> <a href="#" onclick="purchaseClickingCompanion()"><img src="./cursor-png.png" width="50px" height="50px">
             </a></button> <br>
-            <p id="costOfClickingCompanion"> Cost: 100 Cookies</p>
-            <p id="numberOfClickingCompanion">You own 0 Clicking Companions</p> <br>
-            <p id="costOfCollectiveCulminationCompounder">Cost: 20 Cookies</p>
-            <p id="numberOfCollectiveCulminationCompounders"> You own 0 Collective Collective Culmination Compounders
-            </p>
+            <p id="costOfClickingCompanion"> Cost: 100 Macarons</p>
+            <p id="numberOfClickingCompanions">You own 0 Clicking Companions</p> <br>
+            <p id="costOfCollectiveCulminationCompounder">Cost: 20 Macarons</p>
+            <p id="numberOfCollectiveCulminationCompounders"> You own 0 Collective Collective Culmination Compounders</p>
+            <p id="multiplier">1.00x</p>
             <button type="button" onclick="purchaseCollectiveCulminationCompounder()">Purchase CollectiveCulmination Compounder</button>
             <script src="./src/js/app.js"></script>
         </body>
