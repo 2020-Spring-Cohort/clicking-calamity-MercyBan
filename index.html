@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css "href="src/css/style.css">
-    <script src="./src/js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="src/css/layout.css">
+    <script src="./src/js/ClickCounter.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookie Clicker Game</title>
-    
+    <title>Macaron Clicker Game</title>
+
 </head>
+
 <body>
     <div class="container">
-        <div class="container__image">
-            <a href=# onclick="addMacaron()"><img src="./macaron_PNG80 (1).png" width="120px" height=120px></a>
-            <br></br>
-            You got:
-            <!-- <input type="text" id="macaron" disabled style = text-align:center> -->
-            <span id="count" onclick="addMacaron()">0</span>
-            <!-- <span id ="count" ></span> -->
-            Macarons
-            <br> <br>
-            <button><a href="#" onclick="reset()">Reset</a></button>
-            <br> <br>
-            <button> <a href="#" onclick="purchaseClickingCompanion()"><img src="./cursor-png.png" width="50px" height="50px">
-            </a></button> <br>
-            <p id="costOfClickingCompanion"> Cost: 100 Macarons</p>
-            <p id="numberOfClickingCompanions">You own 0 Clicking Companions</p> <br>
-            <p id="costOfCollectiveCulminationCompounder">Cost: 20 Macarons</p>
-            <p id="numberOfCollectiveCulminationCompounders"> You own 0 Collective Collective Culmination Compounders</p>
-            <p id="multiplier">1.00x</p>
-            <button type="button" onclick="purchaseCollectiveCulminationCompounder()">Purchase CollectiveCulmination Compounder</button>
-            <script src="./src/js/app.js"></script>
-        </body>
+        <header class="container__nav">
+
+
+            <a href="company info">Company Info</a></li>
+            <a href="https://orteil.dashnet.org/cookieclicker/" target="__blank">Inspiration</a></li>
+            <a href="contact info">Contact Info</a></li>
+
+
+        </header>
+
+
+
+        <div class="container__main">
+            <div class="container__main__menu">
+                <a href=# onclick="addMacaron()"><img src="./macaron_PNG80 (1).png" width="120px" height=120px></a>
+                <br></br>
+                You got:
+                <!-- <input type="text" id="macaron" disabled style = text-align:center> -->
+                <span id="count" onclick="addMacaron()">0</span>
+                <!-- <span id ="count" ></span> -->
+
+                Macarons
+            </div>
+
+            <div class="container__main__macarons">
+                <br> <br>
+                <button> <a href="#" onclick="purchaseClickingCompanion()"><img src="./cursor-png.png" width="50px" height="50px">
+                    </a></button> <br>
+                <p id="costOfClickingCompanion"> Cost: 100 Macarons</p>
+                <p id="numberOfClickingCompanions">You own 0 Clicking Companions</p> <br>
+                <p id="costOfCollectiveCulminationCompounder">Cost: 10 Macarons</p>
+                <p id="numberOfCollectiveCulminationCompounders"> You own 0 Collective Collective Culmination Compounders</p>
+                <p id="multiplier">1.00x</p>
+                <button type="button" onclick="purchaseCollectiveCulminationCompounder()">Purchase CollectiveCulmination Compounder</button>
+            </div>
+        </div>
+        <footer>
+            <div class="container__footer__reset">
+                <br> <br>
+                <button><a href="#" onclick="reset()">Reset</a></button>
+            </div>
+        </footer>
+    </div>
+    <script src="./src/js/app.js"></script>
     </div>
 </body>
+
 </html>
