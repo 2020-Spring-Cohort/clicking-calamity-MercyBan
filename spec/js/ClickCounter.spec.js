@@ -13,7 +13,6 @@ describe('Clicking Calamity Tests:', () => {
     describe('addMacaron() records clicks and ClickCounter can give the clickCount', () => {
         
         it('addMacaron() 1 time should result in a clickCount of 1.', () => {
-            //jasmine.createSpyObj('document', []); needs methods in arra to work
             addMacaron();
             expect(macaroncount).toBe(1);
         });
